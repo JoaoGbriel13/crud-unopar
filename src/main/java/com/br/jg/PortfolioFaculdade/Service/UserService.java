@@ -36,7 +36,7 @@ public class UserService {
 
     public ResponseEntity update(Long id, User user){
         Optional<User> userFound = userRepository.findById(id);
-        if (userFound.isPresent()){
+        if (userFound.isPresent() ){
             User userToChange = userFound.get();
             userToChange.setEmail(user.getEmail());
             userToChange.setNome(user.getNome());
