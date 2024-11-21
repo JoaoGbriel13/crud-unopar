@@ -13,5 +13,4 @@ class PortfolioFaculdadeApplicationTests {
 	void saveAll(){
 
 	}
-
 }
